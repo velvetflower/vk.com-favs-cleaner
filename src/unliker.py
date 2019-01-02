@@ -5,7 +5,7 @@ import random
 import requests
 from requests.exceptions import Timeout
 
-token = "44bf65f51095c41c09782024dd4951253c2b1dfac3c80ff916a3f44124e6a395a30f1143e58dec8fe743a"
+token = ""
 api = vk_requests.create_api(service_token=token, scope=['friends', 'wall', 'offline'], interactive=True)
 
 cntr = 0
